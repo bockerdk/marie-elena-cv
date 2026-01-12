@@ -1,0 +1,145 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Marie-Elena Hansen"
+theme = "orbit"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+    styles = "styles-6.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Marie-Elena Hansen"
+        avatar = "profile.jpg"
+        # tagline = "*Undertitle*"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fas fa-envelope"
+        url = "mailto: marieelena.hansen@gmail.com"
+        title = "marieelena.hansen@gmail.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+4540324966"
+        title = "+4540324966"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "HD"
+        college = "Aalborg University"
+        dates = "2017 - 2021"
+
+        [[params.education.list]]
+        degree = "HG"
+        college = "Central College of Commerce Glasgow"
+        dates = "2005 - 2005"
+
+        [[params.education.list]]
+        degree = "HF"
+        college = "VUC Hjørring"
+        dates = "2003 - 2005"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Danish"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "Norwegian"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "German"
+        level = "Basic"
+
+        [[params.language.list]]
+        language = "Spanish"
+        level = "Basic"
+
+
+# Main body sections
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "After finishing HF and HG in Hjørring and Glasgow 2004/2005, I worked on a ship for a few years. After going on shore I started my professional career in the ship supply business in 2008. This led me to Esbjerg, later Algeciras in Spain, and afterwards to Garrets HQ Nørresundby. In 2021 I graduated with an HD in Organisation and Management from AAU, which was performed as a part time study, while working as a Team Leader. The last 15 years I have been working in the same company, with many different tasks and positions. Overall it has been operational tasks, with the responsibility of performance of the operation, being 6-10 persons, meeting KPIs, budgets, customer satisfaction and service levels in general. Daily tasks have been problem solving, assisting and training the team, and building bridges between departments. Periodically there has been a lot of travel involved, visiting clients in the US, South Africa, and all over Europe. I am an open minded, resourceful, engaged and outgoing person. I thrive in a changing environment, and enjoy a wide variety of tasks, known as well as unforeseen. I excel at solving issues, and remaining calm, in unexpected situations. As a leader I gain success through employees' success, I believe in empowering colleagues as much as possible, and giving as much responsibility as possible. I believe in mutual trust and loyalty."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Operational Supervisor / Deputy / Team Leader"
+        dates = "2010 - 2024"
+        company = "Garrets"
+        details = "The job description was provision management - budget management. Shipowners outsourced provision management to Garrets, with a given rate per man per day, and the job was to source and purchase the needed provision, in the given area, within the budget allowance settled from owners. In this task, communication was the key, as the individual vessels would find the rate too low, Garrets prices too high, the assortment narrow etc - the goal was, get the needed provision on board, for the given periods, and assist the vessels in consuming / handling the provision, and remain satisfied. My focus areas were, that the operation met the budgets/victualling rates for our clients, which meant, met the budgets for Garrets, along with having satisfied customers. Since 2016 the above mentioned tasks have included colleagues in UK, Manila, Singapore and Belgium, along with relations worldwide, internal as well as external. The supplier network that Garrets cooperates with, is in every part of the world, for which reason, I am used to corporating absolutely multicultural. As the company was developing from us being 4 persons, into 6 years later, being the largest player worldwide, and merging with several competitors, basing HQ in DK, under our operation, it has always been an everyday with a lot of changes, and benefiting from all new incomers. My focus areas were, that the operation met the budgets/victualling rates for our clients, which meant, met the budgets for Garrets, along with having satisfied customers. Since 2016 the above mentioned tasks have included colleagues in UK, Manila, Singapore and Belgium, along with relations worldwide, internal as well as external. The supplier network that Garrets cooperates with, is in every part of the world, for which reason, I am used to corporating absolutely multicultural. As the company was developing from us being 4 persons, into 6 years later, being the largest player worldwide employing +150 persons, and merging with several competitors, basing HQ in DK, under our operation, it has always been an everyday with a lot of changes, and benefiting from all new incomers."
+
+        [[params.jobs.list]]
+        position = "Internal Sales Trainee - Algeciras"
+        dates = "2009 - 2010"
+        company = "Wrist Intership Algeciras"
+        details = "Part Time working in the office, with sales of provision and spareparts to vessels, and part time working in the port of Algeciras, delivering the orders, both by truck, and by boat, for anchored vessels in the bay."
+
+        [[params.jobs.list]]
+        position = "Internal Sales Trainee - Esbjerg"
+        dates = "2008 - 2009"
+        company = "Lysholdt"
+        details = "Part Time in office, and part time in the port of Esbjerg. Handling invoices for clients based in the port, such as Maersk and Dong, and boarding vessels while alongside."
+
+        [[params.jobs.list]]
+        position = "Waiter at Fjordline"
+        dates = "2005 - 2007"
+        company = "Fjordline"
+        details = "I was a part of starting the route up from Denmark to Norway, with us being a crew of 68 persons, where the majority of us had zero experience in sailing. Learning by doing, Fjordline is now the leading company for voyages between Denmark and Norway."
+
+#     [params.skills]
+#         enable = true
+#         icon = "fa-rocket"
+#         title = "Skills & Proficiency"
+
+#         [[params.skills.list]]
+#         skill = "Python & Django"
+#         level = "98%"
+
+#         [[params.skills.list]]
+#         skill = "Javascript & jQuery"
+#         level = "88%"
+
+#         [[params.skills.list]]
+#         skill = "Angular"
+#         level = "75%"
+
+#         [[params.skills.list]]
+#         skill = "DevOps"
+#         level = "68%"
+
+#         [[params.skills.list]]
+#         skill = "Problem Solver"
+#         level = "62%"

@@ -1,0 +1,17 @@
+name = "Orbit"
+license = "https://github.com/xriley/Orbit-Theme#author--license"
+licenselink = "https://github.com/xriley/Orbit-Theme#author--license"
+description = "Responsive Resume/CV Theme for Developers"
+homepage = "https://gitlab.com/dboso/hugo-theme-orbit"
+tags = ["cv", "resume", "colour schemes"]
+features = ["responsive", "colour schemes"]
+min_version = 0.16
+
+[author]
+  name = "dboso"
+  homepage = "https://gitlab.com/dboso/hugo-theme-orbit"
+
+[original]
+  name = "Xiaoying Riley"
+  homepage = "https://github.com/xriley"
+  repo = "https://github.com/xriley/Orbit-Theme"
