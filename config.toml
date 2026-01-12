@@ -143,3 +143,7 @@ disable404 = true
 #         [[params.skills.list]]
 #         skill = "Problem Solver"
 #         level = "62%"
+
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
